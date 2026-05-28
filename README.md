@@ -63,6 +63,7 @@ mkdir -p ~/.hermes/skills/creative/suno-studio
 
 # Download the skill file
 curl -o ~/.hermes/skills/creative/suno-studio/SKILL.md \
+  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/creative/suno-studio/SKILL.md
   https://raw.githubusercontent.com/YOUR_USERNAME/suno-studio/main/SKILL.md
 ```
 
