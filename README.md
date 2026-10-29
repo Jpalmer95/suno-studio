@@ -51,21 +51,23 @@ Generates all 4 sequentially, returns the full setlist with links
 
 ### 1. Install the Skill
 
-**Option A: From Hermes Skill Hub** (recommended)
+**Option A: from skills.sh / the Hermes hub**
+
 ```bash
-hermes skills install suno-studio
+hermes skills tap add Jpalmer95/suno-studio
+hermes skills install skills-sh/Jpalmer95/suno-studio/skills/suno-studio
 ```
 
-**Option B: Manual installation**
+**Option B: manual install** (same file the hub serves)
+
 ```bash
-# Create skills directory
 mkdir -p ~/.hermes/skills/creative/suno-studio
-
-# Download the skill file
 curl -o ~/.hermes/skills/creative/suno-studio/SKILL.md \
-  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/creative/suno-studio/SKILL.md
-  https://raw.githubusercontent.com/YOUR_USERNAME/suno-studio/main/SKILL.md
+  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/skills/suno-studio/SKILL.md
 ```
+
+`skills.sh` re-indexes after a push, so a brand-new edit can take a few minutes
+to appear in `hermes skills search`.
 
 ### 2. Set Up Persistent Browser
 

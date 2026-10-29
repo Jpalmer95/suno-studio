@@ -1,13 +1,14 @@
 ---
 name: suno-studio
-description: "Suno AI music generation via browser automation: parse user intent into expert prompts with [metatags], then generate and retrieve songs on suno.com. Supports single-song and DJ queue modes."
+description: "Generate Suno songs in your own browser session."
 version: 1.0.0
-author: Hermes Agent
+author: Jonathan Korstad (@Jpalmer95), Hermes Agent
 license: MIT
+platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [suno, music, generation, browser, automation, dj, radio, prompt-engineering]
-    related_skills: [songwriting-and-ai-music, heartmula, spotify]
+    tags: [suno, music, generation, browser, automation, dj, prompt-engineering]
+    related_skills: [songwriting-and-ai-music, heartmula]
 ---
 
 # Suno Studio — AI Music Generation via Browser Automation
@@ -25,6 +26,14 @@ Two modes:
   prompt → fills in Custom Mode on suno.com/create → generates → retrieves audio.
 - **DJ Mode**: User provides a vibe arc → agent generates a sequence of songs with
   energy progression, BPM/key transitions, and crossfade-ready structure.
+
+## Scope and fair use
+
+This skill drives **your own logged-in browser session** at human pace — one
+generation at a time, on the account and plan you already pay for. It does not
+scrape other people's songs, bulk-download the catalog, or bypass rate limits or
+paid tiers. If Suno's terms change, the terms win: the skill automates the same
+clicks you would make yourself.
 
 ## When to Use
 

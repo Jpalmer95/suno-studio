@@ -1,0 +1,10 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Suno in the browser",
+      "description": "Engineer the prompt and metatags, drive your own logged-in Suno session, retrieve the tracks. Single songs and energy-arc DJ sets.",
+      "skills": ["suno-studio"]
+    }
+  ]
+}

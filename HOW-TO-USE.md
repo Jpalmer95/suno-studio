@@ -14,7 +14,7 @@ Suno Studio is a Hermes Agent skill that automates music generation on [Suno](ht
 ```bash
 cd ~/.hermes/skills/creative/
 git clone https://github.com/Jpalmer95/suno-studio.git suno-studio-repo
-cp -r suno-studio-repo/creative/suno-studio .
+cp -r suno-studio-repo/skills/suno-studio .
 rm -rf suno-studio-repo
 ```
 
@@ -22,7 +22,7 @@ rm -rf suno-studio-repo
 ```bash
 mkdir -p ~/.hermes/skills/creative/suno-studio
 curl -o ~/.hermes/skills/creative/suno-studio/SKILL.md \
-  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/creative/suno-studio/SKILL.md
+  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/skills/suno-studio/SKILL.md
 ```
 
 ### 2. Set Up Persistent Browser
@@ -243,7 +243,7 @@ Solve it manually in the CDP browser (http://127.0.0.1:9222), then retry.
 - [Full Documentation](README.md)
 - [Setup Guide](SETUP.md)
 - [Example Prompts](EXAMPLES.md)
-- [Skill File](creative/suno-studio/SKILL.md)
+- [Skill File](skills/suno-studio/SKILL.md)
 
 ## Contributing
 

@@ -16,7 +16,7 @@ A complete Hermes Agent skill that automates AI music generation on Suno.com usi
 **GitHub:** https://github.com/Jpalmer95/suno-studio
 
 **Contents:**
-- `creative/suno-studio/SKILL.md` — The actual Hermes skill file
+- `skills/suno-studio/SKILL.md` — The actual Hermes skill file
 - `README.md` — Comprehensive documentation
 - `SETUP.md` — Step-by-step installation guide
 - `EXAMPLES.md` — Real-world prompt examples
@@ -28,7 +28,7 @@ A complete Hermes Agent skill that automates AI music generation on Suno.com usi
 ```bash
 cd ~/.hermes/skills/creative/
 git clone https://github.com/Jpalmer95/suno-studio.git temp-repo
-cp -r temp-repo/creative/suno-studio .
+cp -r temp-repo/skills/suno-studio .
 rm -rf temp-repo
 ```
 
@@ -36,7 +36,7 @@ rm -rf temp-repo
 ```bash
 mkdir -p ~/.hermes/skills/creative/suno-studio
 curl -o ~/.hermes/skills/creative/suno-studio/SKILL.md \
-  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/creative/suno-studio/SKILL.md
+  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/skills/suno-studio/SKILL.md
 ```
 
 Then set up CDP browser (see HOW-TO-USE.md) and log into Suno once.
@@ -126,7 +126,7 @@ git pull
 Users who downloaded manually can re-download:
 ```bash
 curl -o ~/.hermes/skills/creative/suno-studio/SKILL.md \
-  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/creative/suno-studio/SKILL.md
+  https://raw.githubusercontent.com/Jpalmer95/suno-studio/main/skills/suno-studio/SKILL.md
 ```
 
 ## Metrics to Watch
